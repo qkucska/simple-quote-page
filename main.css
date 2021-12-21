@@ -53,3 +53,26 @@ body {
     width: 70%
   }
 }
+
+.lang-nav {
+  display: block;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  margin-bottom: 10px
+}
+
+.lang-nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: darkorange;
+  padding: 0.5rem;
+  font-weight: 900;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 20px;
+}
+
+.lang-nav a:hover {
+  background-color: hsla(0, 0%, 0%, 0);
+  color: black;
+}
